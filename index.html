@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manish Nakum — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">MN://</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tag">Available for work</div>
+    <h1 class="hero-name">
+      <span class="name-first">Manish</span>
+      <span class="name-last">Nakum.</span>
+    </h1>
+    <p class="hero-sub">Building thoughtful digital experiences — where design meets engineering and ideas become reality.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">1+</div>
+        <div class="stat-label">Projects Done</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">1+</div>
+        <div class="stat-label">Years Exp.</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Achievements</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-visual reveal">
+      <div class="about-img-placeholder"></div>
+      <div class="about-badge">
+        <div class="about-badge-num">3+</div>
+        <div class="about-badge-text">Years building</div>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-label">01 <span>/</span> About</div>
+      <h2 class="section-title reveal">Who I Am</h2>
+      <p class="section-desc reveal">A developer and creator with a passion for crafting meaningful digital products.</p>
+      <p class="reveal">I'm <strong>Manish Nakum</strong>, a developer who believes that great software is equal parts logic and craft. I care deeply about the details — the animation that feels just right, the architecture that scales, the interface that just makes sense.</p>
+      <p class="reveal reveal-delay-1">When I'm not building, you'll find me exploring new frameworks, contributing to open source or playing with my toys(dev) . I thrive at the intersection of design thinking and engineering precision.</p>
+      <p class="reveal reveal-delay-2">Currently open to internships and freelance collaborations where I can make a genuine impact.</p>
+      <div class="about-tags reveal reveal-delay-3">
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Python</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">UI/UX</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">02 <span>/</span> Projects</div>
+    <h2 class="section-title reveal">Selected Work</h2>
+    <p class="section-desc reveal">A curated set of projects I've built — each solving a real problem with care.</p>
+    <div class="projects-grid">
+      <a href="#" class="project-card featured reveal">
+        <div class="project-num">Project 01 — Featured</div>
+        <div class="project-title">DevFlow Dashboard</div>
+        <p class="project-desc">A real-time developer productivity dashboard that aggregates data from GitHub, Jira, and Slack into a single unified view. Built to reduce context-switching and surface what actually matters.</p>
+        <div class="project-stack">
+          <span class="stack-pill">React</span>
+          <span class="stack-pill">TypeScript</span>
+          <span class="stack-pill">Node.js</span>
+          <span class="stack-pill">WebSockets</span>
+          <span class="stack-pill">PostgreSQL</span>
+        </div>
+        <span class="project-link">View Project</span>
+      </a>
+      <a href="#" class="project-card reveal reveal-delay-1">
+        <div class="project-num">Project 02</div>
+        <div class="project-title">InkForm</div>
+        <p class="project-desc">A minimalist form builder with drag-and-drop, conditional logic, and export-to-PDF — made for designers who hate code.</p>
+        <div class="project-stack">
+          <span class="stack-pill">Next.js</span>
+          <span class="stack-pill">Tailwind</span>
+          <span class="stack-pill">Prisma</span>
+        </div>
+        <span class="project-link">View Project</span>
+      </a>
+      <a href="#" class="project-card reveal reveal-delay-2">
+        <div class="project-num">Project 03</div>
+        <div class="project-title">PulseML</div>
+        <p class="project-desc">A lightweight ML monitoring tool for detecting model drift and data anomalies in production. Sends alerts before problems become incidents.</p>
+        <div class="project-stack">
+          <span class="stack-pill">Python</span>
+          <span class="stack-pill">FastAPI</span>
+          <span class="stack-pill">scikit-learn</span>
+        </div>
+        <span class="project-link">View Project</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">03 <span>/</span> Skills</div>
+    <div class="skills-layout">
+      <div>
+        <h2 class="section-title reveal">My<br>Toolkit</h2>
+        <p class="section-desc reveal">Tech I reach for when solving hard problems.</p>
+        <div class="skill-group reveal">
+          <div class="skill-group-name">Frontend</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>React / Next.js</span><span class="skill-pct">92%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.92"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>TypeScript</span><span class="skill-pct">87%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.87"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>CSS / Tailwind</span><span class="skill-pct">90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.90"></div></div>
+          </div>
+        </div>
+        <div class="skill-group reveal reveal-delay-1">
+          <div class="skill-group-name">Backend</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>Node.js</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.85"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>Python / FastAPI</span><span class="skill-pct">80%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.80"></div></div>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-top"><span>PostgreSQL</span><span class="skill-pct">78%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="0.78"></div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group reveal reveal-delay-2" style="margin-top: 5rem;">
+          <div class="skill-group-name" style="color: var(--muted);">Also comfortable with</div>
+          <div class="skills-cloud">
+            <span class="cloud-tag">Docker</span><span class="cloud-tag">AWS</span>
+            <span class="cloud-tag">Git & GitHub</span><span class="cloud-tag">GraphQL</span>
+            <span class="cloud-tag">Redis</span><span class="cloud-tag">Figma</span>
+            <span class="cloud-tag">MongoDB</span><span class="cloud-tag">Linux</span>
+            <span class="cloud-tag">Vercel</span><span class="cloud-tag">WebSockets</span>
+            <span class="cloud-tag">Jest</span><span class="cloud-tag">Cypress</span>
+            <span class="cloud-tag">CI/CD</span><span class="cloud-tag">Machine Learning</span>
+            <span class="cloud-tag">REST APIs</span><span class="cloud-tag">Agile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="section-label">04 <span>/</span> Blog</div>
+    <h2 class="section-title reveal">Writing</h2>
+    <p class="section-desc reveal">Thoughts on engineering, design, and building things that matter.</p>
+    <div class="blog-list">
+      <a href="#" class="blog-item reveal">
+        <span class="blog-date">May 2026</span>
+        <span class="blog-title">Why I Stopped Using Redux (And What I Use Instead)</span>
+        <span class="blog-tag">React</span>
+      </a>
+      <a href="#" class="blog-item reveal reveal-delay-1">
+        <span class="blog-date">Apr 2026</span>
+        <span class="blog-title">The Hidden Cost of Over-Engineering</span>
+        <span class="blog-tag">Engineering</span>
+      </a>
+      <a href="#" class="blog-item reveal reveal-delay-2">
+        <span class="blog-date">Mar 2026</span>
+        <span class="blog-title">Designing APIs for Humans, Not Just Machines</span>
+        <span class="blog-tag">Design</span>
+      </a>
+      <a href="#" class="blog-item reveal reveal-delay-3">
+        <span class="blog-date">Feb 2026</span>
+        <span class="blog-title">Building a Production ML Pipeline from Scratch</span>
+        <span class="blog-tag">ML</span>
+      </a>
+      <a href="#" class="blog-item reveal reveal-delay-4">
+        <span class="blog-date">Jan 2026</span>
+        <span class="blog-title">CSS You Probably Forgot About (But Shouldn't Have)</span>
+        <span class="blog-tag">CSS</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="section-label">05 <span>/</span> Achievements</div>
+    <h2 class="section-title reveal">Recognition</h2>
+    <p class="section-desc reveal">Milestones along the journey.</p>
+    <div class="achievements-grid">
+      <div class="achievement-card reveal">
+        <div class="ach-icon">🏆</div>
+        <div class="ach-title">Hackathon Winner</div>
+        <div class="ach-org">National Level — 2025</div>
+        <p class="ach-desc">First place among 200+ teams for building a real-time collaboration tool in 24 hours.</p>
+      </div>
+      <div class="achievement-card reveal reveal-delay-1">
+        <div class="ach-icon">⭐</div>
+        <div class="ach-title">Open Source Contributor</div>
+        <div class="ach-org">GitHub — 1k+ Stars</div>
+        <p class="ach-desc">Authored a developer tooling library adopted by teams across 15 countries.</p>
+      </div>
+      <div class="achievement-card reveal reveal-delay-2">
+        <div class="ach-icon">🎓</div>
+        <div class="ach-title">Dean's List</div>
+        <div class="ach-org">University — 2023–24</div>
+        <p class="ach-desc">Recognized for academic excellence and consistent top performance in CS.</p>
+      </div>
+      <div class="achievement-card reveal reveal-delay-1">
+        <div class="ach-icon">📢</div>
+        <div class="ach-title">Speaker</div>
+        <div class="ach-org">TechConf India — 2024</div>
+        <p class="ach-desc">Delivered a talk on modern frontend architecture to an audience of 500+ developers.</p>
+      </div>
+      <div class="achievement-card reveal reveal-delay-2">
+        <div class="ach-icon">🏅</div>
+        <div class="ach-title">Competitive Programming</div>
+        <div class="ach-org">LeetCode — Knight</div>
+        <p class="ach-desc">Ranked in the top 3% globally on LeetCode with 400+ problems solved.</p>
+      </div>
+      <div class="achievement-card reveal reveal-delay-3">
+        <div class="ach-icon">💼</div>
+        <div class="ach-title">Google Summer of Code</div>
+        <div class="ach-org">Google — 2024</div>
+        <p class="ach-desc">Selected as a GSoC contributor to build tooling for a major open-source organization.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label" style="justify-content: center;">06 <span>/</span> Contact</div>
+    <h2 class="contact-big reveal">Let's Build<br>Something.</h2>
+    <p class="contact-sub reveal">Have a project in mind, a role to fill, or just want to say hello?<br>My inbox is always open.</p>
+    <a href="mailto:manish@example.com" class="btn-primary reveal" style="display: inline-block; margin-bottom: 3rem; font-size: 0.9rem;">manish@example.com</a>
+    <div class="contact-links reveal reveal-delay-1">
+      <a href="#" class="contact-link">GitHub</a>
+      <a href="#" class="contact-link">LinkedIn</a>
+      <a href="#" class="contact-link">Twitter / X</a>
+      <a href="#" class="contact-link">Resume ↓</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 <span class="footer-accent">Manish Nakum</span></p>
+    <p>Designed & built with ♥</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
