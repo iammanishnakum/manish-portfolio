@@ -1,4 +1,8 @@
 import './style.css'
+import { inject } from '@vercel/analytics'
+
+// Initialize Vercel Web Analytics
+inject()
 
 // ── Custom cursor ──────────────────────────────────────────────
 const cursor = document.getElementById('cursor')
