@@ -1,4 +1,8 @@
 import './style.css'
+import { injectSpeedInsights } from '@vercel/speed-insights'
+
+// ── Initialize Vercel Speed Insights ───────────────────────────
+injectSpeedInsights()
 
 // ── Custom cursor ──────────────────────────────────────────────
 const cursor = document.getElementById('cursor')
